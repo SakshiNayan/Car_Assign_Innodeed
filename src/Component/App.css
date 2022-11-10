@@ -1,0 +1,71 @@
+#main-body{
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-wrap:nowrap;
+  row-gap: 30px;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  margin-left:40px ;
+}
+
+.carImg{
+  width: 380px;
+    height: 250px;
+}
+.Car{
+  margin-top: 10px;
+}
+.modelName{
+  font-size: 1vw;
+  font-weight: bold;
+}
+.body-type{
+  font-weight: 700;
+  font-size: x-large;
+  color: grey;
+}
+/* .model{
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  font-size: medium;
+} */
+/* .container{
+  width: 10px;
+} */
+.pagination{
+  display: flex;
+  column-gap: 10px;
+  float:right;
+  margin-right: 50px;
+}
+.blue{
+  color: blue;
+}
+.grey{
+  color: grey;
+}
+.arrow{
+  border: 3px solid grey;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  justify-content: space-between;
+  margin-right: 30px;
+}
+.sign{
+ margin-top: 15px;
+  
+}
+.pop-container{
+  text-align: center;
+  margin-top: 10px;
+}
+.pop-container span{
+  cursor: pointer;
+}
+.pagination .arrow{
+  cursor: pointer;
+}
